@@ -12,10 +12,23 @@
 					"variableName": "name",
 					"value": "ajaya"
 				}
+			},
+			{
+				"name": "Append variable2",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "age",
+					"value": "45"
+				}
 			}
 		],
 		"variables": {
 			"name": {
+				"type": "Array"
+			},
+			"age": {
 				"type": "Array"
 			}
 		},
