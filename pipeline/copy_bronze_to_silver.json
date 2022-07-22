@@ -1,0 +1,7 @@
+{
+	"name": "copy_bronze_to_silver",
+	"properties": {
+		"description": "copy_bronze_to_silver",
+		"annotations": []
+	}
+}
