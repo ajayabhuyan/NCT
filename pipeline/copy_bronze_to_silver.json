@@ -2,6 +2,23 @@
 	"name": "copy_bronze_to_silver",
 	"properties": {
 		"description": "copy_bronze_to_silver",
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "name",
+					"value": "ajaya"
+				}
+			}
+		],
+		"variables": {
+			"name": {
+				"type": "Array"
+			}
+		},
 		"annotations": []
 	}
 }
